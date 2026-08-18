@@ -84,7 +84,6 @@ nav a:hover {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    display: 110px;
     padding: 30px 12% 0;
 }
 
@@ -155,7 +154,7 @@ nav a:hover {
     border-radius: 50%;
     width: 500px;
     height: 550px;
-    transform: translate(80px , 20px)
+    transform: translate(80px , 20px);
 }
 
 .Marwan {
