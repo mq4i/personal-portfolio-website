@@ -8,6 +8,9 @@
 }
 
 
+body {
+    background: rgb(241,241,241);
+}
 
 /** Header Section **/
 header {
@@ -36,7 +39,6 @@ header {
 
 
 /** NavBar Section **/
-
 nav {
     position: relative;
     right: 40px;
@@ -56,7 +58,6 @@ nav a:hover {
 }
 
 /** Contact Section **/
-
 .contact {
     padding: 9px 29px;
     color: white;
@@ -77,7 +78,6 @@ nav a:hover {
 }
 
 /** Home Section **/
-
 .home {
     background: rgb(241,241,241);
     width: 100%;
@@ -155,9 +155,52 @@ nav a:hover {
     border-radius: 50%;
     width: 500px;
     height: 550px;
-    transform: translate(70px , 30px)
+    transform: translate(80px , 20px)
 }
 
 .Marwan {
     color: orangered;
 }
+
+/** Skills Section **/
+.skills {
+    background: rgb(241,241,241);
+    padding: 8px 50px;
+    margin-bottom: 100px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.skills p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.skills .containers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills .containers > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 0.5px solid black;
+    border-radius: 30px;
+}
+
+.skills .containers > div img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+
