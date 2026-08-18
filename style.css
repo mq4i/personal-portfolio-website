@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+}
+
+
+
+/** Header Section **/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    padding:30px 80px;
+    background: rgba(0,0,0,0.8);
+    z-index: 100;
+}
+
+/** Logo Section **/
+.logo {
+    font-size: 27px;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    color:orangered;
+    transform: scale(1.1);
+}
+
+
+/** NavBar Section **/
+
+nav {
+    position: relative;
+    right: 40px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+nav a:hover {   
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+
+/** Contact Section **/
+
+.contact {
+    padding: 9px 29px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+
+.contact:hover {
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 0 20px orangered;
+}
+
+/** Home Section **/
+
+.home {
+    background: rgb(241,241,241);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    display: 110px;
+    padding: 30px 12% 0;
+}
+
+.home-content {
+    max-width: 800px;
+    transform: translateY(40px);
+}
+
+.home-content h3 {
+    font-size: 48px;
+}
+
+.home-content h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.button-box {
+    width: 350px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn-1 {
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.btn-2 {
+    padding: 15px 25px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    color: orangered;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.img-box img {
+    border-radius: 50%;
+    width: 500px;
+    height: 550px;
+    transform: translate(70px , 30px)
+}
+
+.Marwan {
+    color: orangered;
+}
