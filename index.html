@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Marwan Moqbel is a Software Engineering student and aspiring Web Developer specializing in HTML, CSS, JavaScript, React, and Python.">
+        <meta name="description" 
+        content="Marwan Moqbel is a Software Engineering student and aspiring Web Developer specializing in 
+        HTML, CSS, JavaScript, React, and Python.">
         <meta name="keywords" 
         content="Marwan Moqbel, Marwan Alserafi, Software Engineering, Web Developer, Front-End Developer, Portfolio">
 
@@ -21,7 +23,7 @@
 
         <header>
             <!-- Logo Section -->
-            <a href = "#" class="logo">Marwan Moqbel</a>
+            <a class="logo">Marwan Moqbel</a>
 
             <!-- NavBar Section -->
             <nav>
@@ -43,7 +45,7 @@
                 </ul>
             </nav>
 
-            <a href="#" class="contact" >Contact Me</a>       
+            <a href="#contact" class="contact" >Contact Me</a>       
 
         </header>
         <hr>
@@ -55,18 +57,17 @@
                     <h3>Hi!</h3>
 
 
-                    <h1>I'm <span class="Marwan">Marwan</span><br> a Software Engineer</h1>
+                    <h1>I'm <span class="orangered">Marwan</span><br> a Software Engineer</h1>
 
-                    <p>I am a second-year Software Engineering student at the University of Business and Technology, 
-                        passionate about web development and creating engaging websites. 
-                        I enjoy turning ideas into functional solutions using modern web 
-                        technologies while also being interested in exploring the field of
-                        Artificial Intelligence. I am always eager to learn new 
-                        technologies, explore innovative ideas, and grow as a developer.</p>
+                    <p>I am a third-year Software Engineering student passionate about web development 
+                        and creating engaging websites. I enjoy turning ideas into functional solutions 
+                        using modern web technologies while also being interested in exploring the field of
+                        Artificial Intelligence. I am always eager to learn new technologies, explore innovative ideas, 
+                        and grow as a developer.</p>
 
                     <div class="button-box">
-                        <button class="btn-1">Skills</button>
-                        <button class="btn-2">Download CV</button>
+                        <button class="btn-1" id="skill-btn">Skills</button>
+                        <button class="btn-2" id="cv-btn">Download CV</button>
                     </div>
 
                 </div>
@@ -76,12 +77,14 @@
             </section>  
 
             <!-- Skills Section-->
-            <section class="skills">
+            <section class="skills" id="skills">
 
                 <h2>Skills</h2>
 
-                <p class="skills-text">I have a strong foundation in front-end development with HTML, CSS, JavaScript, and React, along with programming experience in Python. 
-                    I also use Git and GitHub for version control, project management, and collaborative development.
+                <p class="skills-text">I have a strong foundation in front-end development, with experience in HTML, CSS, JavaScript, and React for 
+                    building responsive, user-friendly, and engaging web interfaces. I also have programming experience with Python and a growing 
+                    interest in software development and modern technologies. Also I use Git and GitHub for version control, project management, 
+                    and maintaining organized development workflows.
                 </p>
 
                 <div class="containers">
@@ -124,12 +127,33 @@
 
 
             <!-- Contact Section-->
-            <section id="contact"></section>    
+            <section class="contact-section" id="contact">
+                <h2 class="contact-me">Contact<span class="orangered"> Me</span></h2>
 
+
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Phone Number" optional>
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <input type="submit" value="Send Message" class="btn-1">
+                </form>
+            </section>
             
         <!-- Footer Section -->
         <footer>
+            <div class="connect-with-me">
+                <h2>Connect with <span> Me</span></h2>
+            </div>
 
+            <div class="social-footer">
+                <a href="https://t.me/ImrwnI" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://wa.me/966534546542" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <p class="copyright">© 2026 Marwan Moqbel | All rights reserved.</p>
         </footer>
 
         <script src="script.js"></script>
