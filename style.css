@@ -9,7 +9,7 @@
 
 
 body {
-    background: rgb(241,241,241);
+    background: rgb(232,232,232);
 }
 
 /** Header Section **/
@@ -79,7 +79,6 @@ nav a:hover {
 
 /** Home Section **/
 .home {
-    background: rgb(241,241,241);
     width: 100%;
     display: flex;
     align-items: center;
@@ -103,7 +102,7 @@ nav a:hover {
 
 .home-content p {
     font-size: 18px;
-    margin: 25px 0 30px;
+    margin: 18px 0 30px;
 }
 
 .button-box {
@@ -163,7 +162,6 @@ nav a:hover {
 
 /** Skills Section **/
 .skills {
-    background: rgb(241,241,241);
     padding: 8px 50px;
     margin: 100px 0 0;
     cursor: default;
@@ -179,7 +177,7 @@ nav a:hover {
 .skills p {
     text-align: center;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom:18px;
 }
 
 .skills .containers {
@@ -249,6 +247,14 @@ nav a:hover {
 
 .contact-section .btn-1 {
     margin-top: 15px;
+    background: rgb(28, 27, 27);
+    color: white;
+}
+
+.contact-section .btn-1:hover {
+    color: rgb(210, 210, 210);
+    border: 2px  rgb(210, 210, 210) solid;
+
 }
 
 /** Footer Section **/
@@ -378,7 +384,7 @@ footer .copyright {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     /** Header Section **/
     header {
@@ -424,6 +430,8 @@ footer .copyright {
     .home-content p {
         font-size: 12px;
         line-height: 1.6;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     .button-box {
@@ -448,21 +456,20 @@ footer .copyright {
     /** Skills Section **/
     .skills {
         width: 100%;
-        margin: 40px 0 0;
+        margin: 10px 0 0;
         padding: 30px 20px;
     }
 
     .skills h2 {
         font-size: 38px;
-        margin-bottom: 15px;
-        transform: none;
+        transform: translateX(1px);
     }
 
     .skills p {
         font-size: 12px;
         line-height: 1.7;
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .skills .containers {

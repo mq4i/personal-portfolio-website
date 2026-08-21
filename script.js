@@ -4,6 +4,14 @@ window.addEventListener("load", function() {
     history.replaceState(null, null, window.location.pathname);
 });
 
+// Refresh #contact
+document.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () {
+        history.replaceState(null, null, window.location.pathname);
+    });
+
+});
+
 // Skill button
 document.getElementById("skill-btn")
 .addEventListener("click", function () {
@@ -19,5 +27,5 @@ document.getElementById("cv-btn")
     const link = document.createElement("a");
     link.href = "CV-Marwan-Moqbel.pdf";
     link.download = "CV-Marwan-Moqbel.pdf";
-    link.click()
+    link.click();
 });
